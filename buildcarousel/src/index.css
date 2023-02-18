@@ -1,0 +1,12 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* 스크롤바 감추기 */
+  background: #000 url('./assets//background_img.png') repeat;
+  background-attachment: fixed;
+
+}
