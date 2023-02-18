@@ -1,12 +1,11 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
+  margin: 0;
   width: 100vw;
   height: 100vh;
-  overflow: hidden; /* 스크롤바 감추기 */
-  background: #000 url('./assets//background_img.png') repeat;
-  background-attachment: fixed;
-
+  background: #000 url('./assets//background_img.png');
+  -webkit-overflow-scrolling: touch; /* 스크롤 부드럽게 처리 */
 }
